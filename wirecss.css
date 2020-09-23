@@ -1,31 +1,170 @@
-html, body {
-  height: 100%;
+html {
+  margin: auto;
+  height: auto;
 }
 
 body {
+  height: auto;
+  width: fit-content;
   font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
-  font-size: 27px;
+  font-size: 17px;
   background-color: rgba(212, 212, 212, 0.829);
-  width: 97%;
 }
 
 * {
   box-sizing: border-box;
-  /* color:red; */
-  /* border: 6px solid black; */
+  color:rgba(0, 0, 0, 0.931);
+  /* border: 3px solid black; */
 }
-          
-#foot {
-  display: flex;
+
+header section aside footer {
+  display: block;
+  padding: 3px;
+}
+
+#masthead {
+  height: 57%;
+  width: 100%;
+  padding: 12px;
+  background: red;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  display: inline;
+  font-size: 53px;
+  color: blue;
+}
+
+#hd-logo {
+  margin: -9;
+  height: 87px;
+  width: 79px;
+}
+
+#navigation {
+  width: 100%;
+  overflow: auto;
+}
+
+.section-container {
+  margin-top: auto;
+  float: left;
+  height: auto;
+  width: 45%;
+}
+
+#heading-1 {
+  margin: -20px;
+  position: relative;
+}
+
+#heading-p {
+  margin: 21px;
+  position: absolute;
+  top: -11px;
+  left: 23px;
+  text-align: center;
+  font-size: 56px;
+}
+
+.article-div-1 {
+  position: relative;
+  bottom: -42px;
+}
+
+article {
+  margin: 23px;
+  display: inline-flex;
+}
+
+#art-div {
+  position: relative;
+}
+
+.htags {
+  margin: 8px;
+  font-size: 35px;
+}
+
+#p-article {
+  margin: auto;
+  width: 165px;
+  position: absolute;
+  top: 160px;
+  bottom: -15px;
+  font-size: 21px;
+}
+
+.clear {
+  clear: both;
+}
+
+
+.img-2 {
+  margin:inherit;
+}
+
+#section-div {
+  margin: 4px;
+  position: relative;
+  top: -27px;
+}
+
+.section-p {
+  position: absolute;
+  margin: 43px;
+  top: -24px;
+  font-size: 15px;
+}
+
+aside {
+  float: right;
+  width: 29%;
+  font-size: -webkit-xxx-large;
+}
+
+
+
+#aside-p {
+  margin: 7px;
+
+}
+
+#dropdown-btn {
+  /* position: absolute; */
+  /* top: 100px; */
+  margin: 73px;
+  height: 96px;
+  width: 200px;
+  font-size: 35px;
+  color: red;
+  cursor: pointer;
+}
+
+#dropdown {
+  height: auto;
+  width: auto;
+}
+
+#dropdown-links {
+  display: none;
+  background-color: sandybrown;
 }
 
 a:hover {
   color: white;
 }
 
+#foot {
+  display: flex;
+}
 
-#navigation {
-  width: 100%;
-  /* background-color: red; */
-  overflow: auto;
+footer{
+  margin: auto;
+}
+
+.aln-cntr {
+  text-align: center;
 }
