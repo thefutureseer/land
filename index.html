@@ -4,57 +4,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Land1</title>
-  <link rel="stylesheet" type="text/css" href="wirecss.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
   
  <!-- Header = masthead -->
 <header id="masthead" >
   <div class="container">
-
-  <a id="hd-logo" href="index.html">!HEADLINING HEADER HERE!</a>
-
-  <nav id="navigation">
-    <!--NAVBAR Links-->
-    NAVBAR (Future version will have drop downs)
-    <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_icon"><li>Navbar Home</li></a>
-    <a href="https://www.w3schools.com/tags/tag_nav.asp"><li>Nav Tag</li></a>
-    <a href="https://www.w3schools.com/css/css_link.asp"><li>Style Links</li></a>
-    <a href="https://www.w3schools.com/css/css_overflow.asp"><li>More CSS</li></a>
-  </nav>
-  
-  </div>
+    <img id="hd-logo" src="./css/logo_pic_IMG.jpg">
+    <p id="p-1" class="container">!HEADLINING HEADER HERE!</p>
+    <br>
+    <p class="container">(new darth vader impression in a cup)</p>
+  </div>    
 </header>
 
-<!-- Section container -->
-<div class="container">
-<section>
-  <heading>
-    <p id="section-p">Heading to code</p>
-  </heading>
-  <img src="DAN_T copy.jpg" width="400px" height="600px">
-  <article>
-    <heading>Daniel Harris Tannehill article</heading>
-    <h1 class="htags">!Freedom!</h1>
-    <h2 class="htags">!Life!</h2>
-    <h3 class="htags">!Comfort!</h3>
-    <p>
-      Dan finds freedom! "Discovering; .html, .css and javascript is a 
-      life saver!" Some people find so much entertainment using 
-      their smart devices and computer/electronics but for Dan 
-      its the love of creating the high tech where he finds his own 
-      livelyhood, freedom, wealth and knowledge of himself. 
-    </p>
-  </article>
-</section>
+<!-- <div class="clear"></div> -->
 
-<!-- Aside -->
-<aside>
-  <heading id="aside-heading"> "I'm a problem solver first" he says as he drives his own 
-    limousine for me and a mutual friend who is a celebrity. 
-  </heading> 
-</aside>
-</div>
+<!-- Section container -->
+<section>
+  <div class="section-container">
+    <div id="heading-1">
+      <p id="heading-p">Heading to code</p>
+    </div>
+    <div class="article-div-1">
+      <article>
+        <div class="img-2"> 
+          <img  src="DAN_T copy.jpg" width="400px" height="600px">
+        </div>
+        
+        <div id="art-div">
+          
+          <h1 class="htags">!Freedom!</h1>
+          <h2 class="htags">!Life!</h2>
+          <h3 class="htags">!Comfort!</h3>
+          
+          <p id="p-article">
+            Dan finds freedom! "Discovering; .html, .css and javascript is a 
+            life saver!" Some people find so much entertainment using 
+            their smart devices and computer/electronics but for Dan 
+            its the love of creating the high tech where he finds his own 
+            livelyhood, freedom, wealth and knowledge of himself. 
+          </p>
+        </div>
+
+      </article>
+    </div>
+    
+    <div id="section-div">
+      <p class="section-p">Headshot of Daniel Harris Tannehill *article</p>
+    </div>
+    
+  </div>
+</section>
+  
+  <!-- Aside -->
+  <aside>
+
+      <p id = "aside-p"> "I'm a problem solver first" Tannehill says as he drives his own 
+        limousine for me and a mutual friend who is a celebrity. 
+      </p> 
+      
+      <!--Dropdown-->
+      <div id="dropdown">
+        
+        <button id="dropdown-btn" onclick="dropdownfunction()">Dans live toy apps</button>
+        <div id="dropdown-links">
+          <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_icon"><li>FGF</li></a>
+          <a href="https://www.w3schools.com/tags/tag_nav.asp"><li>Thanksgiving exercise tracking</li></a>
+          <a href="https://www.w3schools.com/css/css_link.asp"><li>Style Links</li></a>
+          <a href="https://www.w3schools.com/css/css_overflow.asp"><li>More CSS</li></a>
+        </div>
+      </div>
+      
+  </aside>
+  
+  <div class="clear"></div>
+  
 <footer>
   <div id="foot" class="container">
     <ul>
@@ -107,8 +132,43 @@
       <li>f2</li>
       <li>f3</li>
     </ul>
+    <ul>
+      <li>f1</li>
+      <li>f2</li>
+      <li>f3</li>
+    </ul>
+    <ul>
+      <li>f1</li>
+      <li>f2</li>
+      <li>f3</li>
+    </ul>
+    <ul>
+      <li>f1</li>
+      <li>f2</li>
+      <li>f3</li>
+    </ul>
+    <ul>
+      <li>f1</li>
+      <li>f2</li>
+      <li>f3</li>
+    </ul>
+    <ul>
+      <li>f1</li>
+      <li>f2</li>
+      <li>f3</li>
+    </ul>
+    <ul>
+      <li>f1</li>
+      <li>f2</li>
+      <li>f3</li>
+    </ul>
+    <ul>
+      <li>f1</li>
+      <li>f2</li>
+      <li>f3</li>
+    </ul>
   </div>    
-  <p>Copywriting &copy; 2018 through <script>document.write(new Date().getFullYear())</script>, "Year of visions."</p>
+  <p class=aln-cntr>Copywriting &copy; 2018 through <script>document.write(new Date().getFullYear())</script>, "Year of visions."</p>
 </footer>
 </body>
 </html>
