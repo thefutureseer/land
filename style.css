@@ -64,9 +64,14 @@ section {
   display: flex;
 }
 
+.article-div {
+  bottom: 1em;
+}
+
 .article-div-1 {
   position: relative;
   height: auto;
+  top: -161px;
   bottom: 176px;
 }
 
@@ -94,7 +99,7 @@ article {
 #lower-ptag {
     width: 1476px;
     font-size: 55px;
-    margin: -158px 113px 47px 74px;
+    margin: -6em 113px 47px 74px;
 }
 
 .clear {
@@ -102,7 +107,7 @@ article {
 }
 
 .img-2 {
-  height: auto;
+  height: 47em;
   width: auto;
   margin:inherit;
 }
@@ -116,6 +121,7 @@ article {
 .section-p {
   position: absolute;
   margin: 102px;
+  margin-left: 144px;
   bottom: 75px;
   font-size: 17px;
 }
